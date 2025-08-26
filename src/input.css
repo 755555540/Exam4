@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @theme {
+
   --breakpoint-sm: 0;
   --breakpoint-md: 500px;
   --breakpoint-3xl: 120rem;
@@ -167,4 +168,8 @@
   footer > div:nth-child(2) form input {
     @apply w-full;
   }
+}
+=======
+  --breakpoint-xs: 0px;
+  --breakpoint-xl: 500px;
 }
